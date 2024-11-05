@@ -73,32 +73,33 @@ document.addEventListener('DOMContentLoaded', function()
     cargarRopa();
 });
 
-
-const menu = document.getElementById("menu")
-const linkMenu = menu.querySelector("a")
-const desplegable = document.getElementById("menu-desplegable")
+/* Ocultar/Mostrar menu */
+const menu = document.getElementById("menu");
+const linkMenu = document.getElementById("button-menu");
+const desplegable = document.getElementById("menu-desplegable");
 
 menu.addEventListener("click", () =>
 {
-    if(desplegable.style.display === "flex")
+    if(desplegable.style.display == "flex")
     {
         desplegable.style.display = "none";
-        linkMenu.style.filter = "invert(0%)"
+        linkMenu.style.filter = "invert(0%)";
     }
     else
     {
         desplegable.style.display = "flex";
         desplegable.style.flexDirection = "column";
-        desplegable.style.justifyContent = "flex-end";
-        linkMenu.style.filter = "invert(100%)"
+        desplegable.style.justifyContent = "center";
+        linkMenu.style.filter = "invert(100%)";
+        menuAbierto = true;
     }
 });
 
-window.addEventListener('click', (e) => {
-    if (!desplegable.contains(e.target) && !menu.contains(e.target)) 
+document.addEventListener("click", (e) =>
+{
+    if(!menu.contains(e.target))
     {
         desplegable.style.display = "none";
-        linkMenu.style.filter = "invert(0%)"
+        linkMenu.style.filter = "invert(0%)";
     }
- });
- 
+})

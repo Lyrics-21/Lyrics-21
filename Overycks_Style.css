@@ -43,7 +43,7 @@ nav
     color: white;
     font-size: large;
 }
-.divNav div
+.divNav > *
 {
     padding: 10px;
 }
@@ -422,7 +422,16 @@ footer
 #menu
 {
     display: none;
+}
+#button-menu
+{
+    display: flex;
+    background: none;
+    border: none;
     cursor: pointer;
+    color: white;
+    align-items: center;
+    font-size: large;
 }
 #menu-desplegable
 {
@@ -431,16 +440,20 @@ footer
     top: 0;
     left: 0;
     z-index: -1;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     background-color: white;
+}
+#menu-desplegable > *
+{
+    padding: 10px;
 }
 #menu-desplegable a
 {
     color: black;
-    padding: 10px;
 }
 
-@media (max-width: 650px)
+@media (max-width: 670px)
 {
     #menu
     {
