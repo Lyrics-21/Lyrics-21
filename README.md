@@ -4,7 +4,7 @@
 ## 🛠️ Tecnologías y Herramientas
 - **Lenguajes**: C#, JavaScript, Python, HTML, CSS
 - **Bases de datos**: MySQL, SQL Server Management Studio
-- **Otros**: Docker, Ansible, Git, GitHub, Scrum
+- **Otros**: Git, GitHub, Scrum, Docker, Ansible
 ## 📫 Contacto
 - **Correo**: [eliandvl21@gmail.com](mailto:eliandvl21@gmail.com)
 - **LinkedIn**: [linkedin.com/in/eliandvl21](https://linkedin.com/in/eliandvl21)
