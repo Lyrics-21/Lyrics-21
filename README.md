@@ -6,7 +6,7 @@
 - **Bases de datos**: MySQL, SQL Server Management Studio
 - **Otros**: Docker, Ansible, Git, GitHub, Scrum
 ## 📊 Estadísticas
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=tu-usuario&show_icons=true&theme=radical)
+![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=Lyrics-21&show_icons=true&theme=radical)
 ## 📫 Contacto
 - **Correo**: [eliandvl21@gmail.com](mailto:eliandvl21@gmail.com)
 - **LinkedIn**: [linkedin.com/in/eliandvl21](https://linkedin.com/in/eliandvl21)
